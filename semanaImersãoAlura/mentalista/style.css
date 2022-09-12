@@ -6,22 +6,20 @@ body {
     background-size: cover;
     background-position: bottom;
     background-repeat: no-repeat;
+    color: #fff;
 }
   
 .container {
-    text-align: center;
     padding: 20px;
-    height: 95vh;
+    height: 100vh;
     margin-top: 3rem;
 }
   
 .page-title {
-    color: #ffffff;
     margin: 10.8rem 0 0 0;
 }
   
 .page-subtitle {
-    color: #ffffff;
     margin-top: 16px;
 }
   
@@ -48,13 +46,9 @@ input {
   
 button {
     margin-top: 12px;
-    padding: 4px 8px;
-    border-radius: 10px;
-    background: #ffffff;
 }
   
 .resultado {
-    color: #ffffff;
     text-align: center;
     margin-top: 16px;
 }

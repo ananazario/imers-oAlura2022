@@ -9,7 +9,7 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <div class="container">
+        <div class="container text-center">
         <h1 class="page-title">
         Calculadora de média</h1>
         <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
@@ -18,27 +18,24 @@
         </p>
 
         <section class="input-section">
-            <div class="input-nota"> 
-                <p>Digite a nota do 1° bimestre:</p>
-                <input type="text" class="notaUm"><br>
+            <div class="input-group flex-nowrap mx-auto">
+                <input type="text" class="form-control notaUm" placeholder="Digite a nota do 1° bimestre:" aria-label="Username" aria-describedby="addon-wrapping">
             </div>
-            <div class="input-nota notas"> 
-                <p>Digite a nota do 2° bimestre:</p>
-                <input type="text" class="notaDois"><br>
+            <div class="input-group flex-nowrap mx-auto">
+                <input type="text" class="form-control notaDois" placeholder="Digite a nota do 2° bimestre:" aria-label="Username" aria-describedby="addon-wrapping">
             </div>
-            <div class="input-nota notas"> 
-                <p>Digite a nota do 3° bimestre:</p>
-                <input type="text" class="notaTres"><br>
+            <div class="input-group flex-nowrap mx-auto">
+                <input type="text" class="form-control notaTres" placeholder="Digite a nota do 3° bimestre:" aria-label="Username" aria-describedby="addon-wrapping">
             </div>
-            <div class="input-nota notas"> 
-                <p>Digite a nota do 4° bimestre:</p>
-                <input type="text" class="notaQuatro"><br>
+            <div class="input-group flex-nowrap mx-auto">
+                <input type="text" class="form-control notaQuatro" placeholder="Digite a nota do 4° bimestre:" aria-label="Username" aria-describedby="addon-wrapping">
             </div>
+        
         </section>
         <button onclick="converter()" class="btn btn-primary"">Clique aqui</button>
 
-        <div class="notaFinal"></div>
-        <div class="resultado"></div>
+        <div class="notaFinal fs-5 mx-auto"></div>
+        <div class="resultado fs-5 mx-auto"></div>
         <a href="https://alura.com.br/" target="_blank">
         <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
         </a>

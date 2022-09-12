@@ -10,18 +10,18 @@
     </head>
 
     <body>
-        <div class="container">
+        <div class="container text-center">
             <h1 class="page-title">Conversor de moedas</h1>
             <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" class="page-logo" alt="">
             
-              <ul class="list-group">
+              <ul class="list-group mx-auto">
                 <li class="list-group-item">1. Dólar</li>
                 <li class="list-group-item">2. Euro</li>
                 <li class="list-group-item">3. Libra</li>
               </ul>
               <br>
               <p class="page-subtitle">Para qual moeda gostaria de converter?</p>
-            <div class="input-group input-group-sm mb-3">
+            <div class="input-group input-group-sm mb-3 mx-auto">
               <span class="input-group-text" id="inputGroup-sizing-sm">Nome ou número</span>
               <input type="text" class="form-control botao-valor" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
             </div>
@@ -29,8 +29,8 @@
             <br>
             <label for="moeda">Insira o valor</label><br>
             <input type="number" id="valor" size="2" /><br>
-            <button type="submit" onclick="converter()">Converter</button>
-            <h3 id="valorConvertido"></h3>
+            <button type="submit" class="btn btn-light" onclick="converter()">Converter</button>
+            <h3 class="fs-3" id="valorConvertido"></h3>
         </div>
           <a href="https://alura.com.br/" target="_blank">
             <img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo">
